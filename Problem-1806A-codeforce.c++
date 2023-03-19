@@ -21,5 +21,5 @@ int main(){
     s=(a-y)+abs(b-z);
     cout<<s<<endl;
     }
-    return 0;
+   
 }
