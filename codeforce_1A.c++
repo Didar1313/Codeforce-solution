@@ -17,5 +17,5 @@ int main(){
         y=(n/a)+1;
     }
     cout<<x*y<<endl;
-    return 0;
+
 }
