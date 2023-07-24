@@ -1,13 +1,14 @@
 #include<iostream>
+typedef long long ll;
 using namespace std;
 int main(){
     int t;
     cin>>t;
     while(t--){
-        int n;
+        ll n;
         cin>>n;
-        vector<int>s(n);
-        for(int i=0; i<n; i++){
+        vector<ll>s(n);
+        for(ll i=0; i<n; i++){
             cin>>s[i];
         }
         reverse(s.begin(),s.end());
@@ -19,9 +20,9 @@ int main(){
             continue;
         }
         reverse(s.begin(),s.end());
-        int size=s.size();
-        int result=0;
-        for(int i=0; i<size-1; i++){
+        ll size=s.size();
+        ll result=0;
+        for(ll i=0; i<size-1; i++){
             if(s[i]==0){
                 result+=1;
             }
