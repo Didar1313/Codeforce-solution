@@ -10,7 +10,7 @@ int main(){
         for(int i=0; i<2*n; i++){
             cin>>s[i];
         }
-        sort(s,s+2*n);
+        sort(s,s+(2*n));
         cout<<s[n]-s[n-1]<<endl;
     }
     return 0;
